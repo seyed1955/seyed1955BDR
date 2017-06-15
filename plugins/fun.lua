@@ -1,6 +1,4 @@
 
---Begin Fun.lua By @BeyondTeam
---Special Thx To @To0fan
 --------------------------------
 
 local function run_bash(str)
@@ -314,7 +312,7 @@ local hash = "gp_lang:"..msg.to.id
 local lang = redis:get(hash)
 if not lang then
 helpfun_en = [[
-_Beyond Reborn Fun Help Commands:_
+_Seyed1955BDReborn Fun Help Commands:_
 
 *!time*
 _Get time in a sticker_
@@ -406,7 +404,7 @@ local hash = "gp_lang:"..msg.to.id
 local lang = redis:get(hash)
 if not lang then
 helpfun_fa = [[
-_Beyond Reborn Fun Help Commands:_
+_Seyed1955BDReborn Fun Help Commands:_
 
 *ساعت*
 _Get time in a sticker_
@@ -522,5 +520,3 @@ return {
 		}, 
 	run = run,
 	}
-
---#by @BeyondTeam :)
